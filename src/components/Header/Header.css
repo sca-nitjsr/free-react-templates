@@ -1,0 +1,35 @@
+.header{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-bottom: 2px solid skyblue;
+}
+.headerLinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerLinks>a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: black;
+}
+.headerLinks>a:hover {
+    color: grey;
+}
+.heading{
+    max-width: 100vw;
+    text-align: center;
+    background-color: #e6e6e6;
+    padding: 80px 0;
+    color: darkmagenta;
+}
+@media screen and (max-width: 780px) {
+    .headerLinks{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .headerLinks>a{
+        border-bottom: 2px solid black;
+    }
+}

@@ -1,0 +1,9 @@
+.cardContainer{
+    display: flex;
+    gap: 70px;
+    max-width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2vmax 0 10vmax 0;
+    background-color: #e6e6e6;
+}
